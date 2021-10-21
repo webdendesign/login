@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 1px solid grey;
+  margin-bottom: 150px;
+}
+
+.header a {
+  text-decoration: none;
+  color: teal;
+  font-size: 36px;
+  &:hover {
+    color: teal;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 7px 3px teal;
+  }
+}
